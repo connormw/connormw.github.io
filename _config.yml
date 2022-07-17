@@ -16,14 +16,13 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Home", file: "/pages/home.md"}
-  - {title: "About", file: "/pages/about.md"}
-  - {title: "Projects", file: "/pages/projects.md"}
+  - {title: "About", file: "about.md"}
+  - {title: "Projects", file: "projects.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:connor.winters1017@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/connormw"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/connor-winters-758a53203/"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
