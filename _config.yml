@@ -1,6 +1,6 @@
 title: "Connor Winters"
 author: "Connor Winters"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
+description: "Contact Me"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -16,8 +16,8 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "About", file: "about.md"}
-  - {title: "Resume", file: "resume.md"}
+  - {title: "About", file: "index.md"}
+  # - {title: "Resume", file: "resume.md"}
   - {title: "Projects", file: "projects.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
