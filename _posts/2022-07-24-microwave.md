@@ -12,7 +12,12 @@ Before proceeding, I would like to warn that the results, while not terrible, ar
 This project is much too long and disjoint for a single page, so I've split each part into separate pages. Links for each are below.
 * ["Hello World" - 50$$\Omega$$ Microstrip Line][50ohm]
 * [Stepped Impedance Low-pass Filter][lpf]
-
+* [Quarter-wave Stub Notch Filter][notch]
+* [Wilkinson Power Divider][wpd]
+* [Directional Coupler][dc]
 
 [50ohm]: ../50ohm-line
 [lpf]: ../stepped-z-lpf
+[notch]: ../notch-filter
+[wpd]: ../wilkinson-divider
+[dc]: ../directional_coupler
