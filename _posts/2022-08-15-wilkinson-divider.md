@@ -8,7 +8,7 @@ Power dividers are probably the most common example of a 3-port device. On the s
 
 ## Specification 
 
-There's not much to say here other than that we're targeting 1.5GHz as in my other designs. We'd like to see equal power division, i.e. -3dB on both ports, and good isolation between the two ports. It's worth noting that Wilkinson dividers can be made with arbitrary divisions and ports, but 2-ports with equal split is the most common. 
+There's not much to say here other than that we're targeting 1.5GHz as in my other designs. We'd like to see equal power division, i.e. -3dB on both ports, and good isolation between the two ports. It's worth noting that Wilkinson dividers can be made with arbitrary divisions and ports, but 2-ports with equal split is the most common and is what we'll be doing here. 
 
 ## Design
 
@@ -20,7 +20,7 @@ Pretty much all we need to do is follow the schematic for a Wilkinson divider (t
 
 $$Z_0 = 50\Omega$$ as always, so we have $$\sqrt{2}Z_0 = 70.7\Omega$$ and $$2Z_0 = 100\Omega$$. Using the line calc in QUCS, we determine the line widths for $$Z_0$$ and $$\sqrt{2}Z_0$$ to be 2.97mm and 1.54mm, respectively. Similarly, we find $$\lambda/4$$ for the $$\sqrt{2}Z_0$$ line to be 27.98mm. 
 
-The real design challenge is figuring out the best way to realize the transmission line schematic in microstrip. On one hand, we want to keep the split arms far enough apart to avoid coupling. On the other, we want to still be able to keep the lines connecting the resistor short to minimize their transmission line effects. Assessing designs can be really tricky to do without access to EM simulators or more full fledged microwave suites like ADS or Microwave Office. Thankfully, there's plenty of images and guidance online on microstrip implementations of Wilkinson dividers. I've decided to go with the simplest one, which is to just imitate the schematic with a triangular split down the middle. 
+The real design challenge is figuring out the best way to realize the transmission line schematic in microstrip. On one hand, we want to keep the split arms far enough apart to avoid coupling. On the other, we want to still be able to keep the lines connecting the resistor short to minimize their transmission line effects. Assessing designs can be really tricky to do without access to EM solvers or more full fledged microwave suites like ADS or Microwave Office. Thankfully, there's plenty of images and guidance online on microstrip implementations of Wilkinson dividers. I've decided to go with the simplest one, which is to just imitate the schematic with a triangular split down the middle. 
 
 ## Simulation
 

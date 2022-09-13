@@ -31,4 +31,4 @@ To tune the filter up, we need to shorten the stub iteratively until we reach $$
   <img src="\assets\notch_s21_graph.png"/>
 </div>
 
-We have a deep null of about -30dB at 1.5GHz as desired. There's some loss above 2GHz, but otherwise this filter has good performance and behaves as intended. My guess is that the loss is either from a poor solder joint on the stub or accidentally cutting part of the main line during construction. 
+We have a deep null of about -30dB at 1.5GHz as desired. There's some loss above 2GHz, but otherwise this filter has good performance and behaves as intended.
