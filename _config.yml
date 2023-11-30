@@ -21,9 +21,9 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Projects", file: "projects.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:connor.winters1017@gmail.com"}
+  - {title: Mail, icon: envelope, url: "mailto:connormw@vt.edu"}
   - {title: Github, icon: github, url: "https://github.com/connormw"}
-  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/connor-winters-758a53203/"}
+  #- {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/connor-winters-758a53203/"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
